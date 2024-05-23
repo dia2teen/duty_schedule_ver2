@@ -3,14 +3,16 @@ Make a Duty schedule from excel input form
 #Anticipated updates
 
 1) May it is possible to make a dataframe including no_additional_duty meaning that the members of this group don't receive duty days anymore.
+>> -> Complete this update by Using make a table including members information with one-hot coding. df_mem_info has a row named no_additional_duty. If this row is 1, the duty_score is defined as -100. So, when randomized choice among members, the members of no_additional_duty will not be assigned.
 
-2) Make data of Number and Names of Available members of Each day.
+3) Make data of Number and Names of Available members of Each day.
 >> -> It will be helpful when master make a list of outside work and making a operation schedule of anesthesiologist of each day.
 
 3) Make a function to control Number of no_holidays of Each member by Master through excel file.
 
 4) Make a function to define ICU duty day befor 2 days from a day when a member hoped
-5) 
+5) Make a holidays dict based on google calendar
+>> -> Complete this update by Using API(https://holidays-jp.github.io/) . the name of Function is 'def get_holidays_from_api(year)'
 
 
 #Input data Master should fill out.
