@@ -51,3 +51,11 @@ Make a Duty schedule from excel input form
         ## -> This request is compledted by Insert of new information, called num_duty.
         ## But, There is a possibility if No addtional duty members don't define their ICU duty
         ## because the number of left duty days is almost equal to Available days of duty of left members.
+
+#Cautions before excute code
+
+>## 1. Copy data of hoped schedule table in Hospital Desktop to excel file on web.
+>> -If copy and paste schdule file of hospital to google drive excelfile, Computer pastes not excel cells but image of excel.
+>> -So, If user want to copy and paste to use excel cells of hoped schedule table in Hospital Desktop,
+>>> 1) Copy and paste the data to excel file on Microsoft365 excel program
+>>> 2) And Copy and Paste cells of the data to google sheet of excel file.
